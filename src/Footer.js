@@ -6,7 +6,7 @@ export default function Footer() {
     <p className="footer">
       <a
         className="sourceCode"
-        href="https://github.com/Reese718/Beginner-Weather-App-project"
+        href="https://https://github.com/Reese718/weather-app-react"
         target="_blank"
         rel="noreferrer"
       >
