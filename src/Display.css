@@ -1,0 +1,127 @@
+h5 {
+  font-size: 20px;
+}
+
+.mainDisplay {
+  padding: 0px 5px 0px 5px;
+}
+.day-info {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
+  border: none;
+  border-radius: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  box-sizing: content-box;
+  position: relative;
+}
+.today-box {
+  font-size: 35px;
+}
+
+#todayDisplay {
+  padding-top: 35px;
+}
+.dateInfo {
+  padding: 0px;
+  text-align: center;
+}
+.date-time {
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+
+  line-height: 0.5;
+  padding-bottom: 5px;
+}
+#time {
+  font-size: 32px;
+  text-align: center;
+  padding: 0px;
+}
+.day-image {
+  border: none;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
+  border: none;
+
+  border-radius: 0px;
+  box-sizing: content-box;
+
+  position: relative;
+}
+.body-image {
+  padding: 0px 16px 0px 16px;
+}
+.tempLink {
+  color: #ffffff;
+  text-align: center;
+}
+
+.day-temp {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
+  border: none;
+
+  border-radius: 0px;
+  box-sizing: content-box;
+  position: relative;
+}
+.day-temp .active {
+  color: #000000;
+  cursor: default;
+  text-decoration: none;
+}
+.day-temp .active:hover {
+  text-decoration: none;
+}
+
+.today-temp {
+  font-size: 56px;
+}
+.units {
+  position: relative;
+  font-size: 18px;
+  top: -32px;
+}
+.body-temp {
+  padding-right: 0px;
+  padding-bottom: 58px;
+}
+span.temp {
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 18px;
+}

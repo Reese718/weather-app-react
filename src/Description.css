@@ -1,0 +1,8 @@
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Prompt", sans-serif;
+  font-size: 40px;
+  color: #000000;
+  padding-top: 10px;
+}

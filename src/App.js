@@ -1,14 +1,18 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import Search from "./Search";
+import Display from "./Display";
+import Description from "./Description";
+import Forecast from "./Forecast";
+import Footer from "./Footer";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Reese</h1>
-      </header>
+      <Search />
+      <Display />
+      <Description />
+      <Forecast />
+      <Footer />
     </div>
   );
 }
-
-export default App;
