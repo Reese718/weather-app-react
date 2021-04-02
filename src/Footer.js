@@ -8,6 +8,7 @@ export default function Footer() {
         className="sourceCode"
         href="https://github.com/Reese718/Beginner-Weather-App-project"
         target="_blank"
+        rel="noreferrer"
       >
         Open-source
       </a>
